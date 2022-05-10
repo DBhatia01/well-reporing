@@ -1,7 +1,5 @@
 import styles from "../styles/Home.module.css";
 import Bar from "./Bar"
-import WellActivityData from "../public/WellActivityData.json"
-
 
 function BarGraph() {
   return (
