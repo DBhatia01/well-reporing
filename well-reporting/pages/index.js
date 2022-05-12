@@ -11,7 +11,9 @@ export default function Home() {
   return (
     <div className={styles.grid}>
         <DailyReport />
-        <Text />
+        <div className={styles.card}>
+        <Text />  
+        </div>
         <RunCasing />
         <TripSpeed />
         <LineGraph />
